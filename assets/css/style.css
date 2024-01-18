@@ -1,20 +1,21 @@
 :root{
-    --clr-primary: #ee6352;
-    --clr-body: #333;
-    --clr-bg: #ddd;
+    --clr-primary: #3C5FE0F0;
+    --clr-text: #333;
+    --clr-bg: #B2BEB5;
 }
 body {
-    font-family: "Courier New";
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 1.125em;
     line-height: 1.6;
-    color: var(--clr-body);
+    color: var(--clr-text);
     background: var(--clr-bg);
 }
+
+/*
 .head{
     background-color: var(--clr-primary);
     color: white;
@@ -56,3 +57,4 @@ small{
     position: absolute;
     bottom: 0;
 }
+*/
