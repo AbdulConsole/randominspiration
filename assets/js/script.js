@@ -14,10 +14,8 @@ btn.addEventListener('click', getQuote);
 //Get Next Quote
 function getQuote() {
   console.log(quotes);
-  if (count !== 3) {
-    btn.innerHTML = "Get another";
-  }
   if (count !== 3){
+    btn.innerHTML = "Get another";
     quoteText.innerHTML = quotes[getRandom()];
     //quoteText.style.color = "var(--clr-primary)";
     count++;
