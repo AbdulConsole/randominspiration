@@ -40,7 +40,7 @@ body {
   justify-self: center;*/
   background: var(--clr-btn);
   color: var(--clr-text);
-  padding: 12px 10px;
+  padding: 8px 16px;
   border-radius: 60%;
   font-size: 20px;
   font-weight: 700;
@@ -54,11 +54,13 @@ body {
 .container .quote {
   background: var(--clr-bg);
   width: 100%;
+  max-height: 50%;
   border-radius: 10px;
   padding: 10px;
+  overflow: hidden;
 }
 .container .quote p {
-  font-size: 40px;
+  font-size: 20px;
   text-align: justify;
   color: var(--clr-text);
 }
