@@ -66,12 +66,6 @@ function fetchQuote() {
   })
   .catch(error => console.error('Error fetching JSON:', error));
 }
-//Get random index no
-function getRandomxx(){
-    var random = Math.floor(Math.random() * 7) + 1;
-    return random;
-}
-
 
 //Get random index no
 function getRandom(){
